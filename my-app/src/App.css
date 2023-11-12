@@ -1,0 +1,44 @@
+/* Home.css */
+
+/* .home-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f0f0f0; 
+  } */
+  
+  .logo {
+    max-width: 150px;
+    height: auto; 
+  }
+  
+  .text-container {
+    max-width: 800px;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  p {
+    line-height: 1.6;
+  }
+  
+  /* Styl dla nawigacji (przykładowy styl) */
+  .nav {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav li {
+    margin-right: 10px;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
