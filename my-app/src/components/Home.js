@@ -4,7 +4,7 @@ import '../App.css';
 function Home() {
   return (
     <div className="home-container">
-      <img src="/my-app/src/components/Logo.png" alt="Logo" className="logo" />
+    <img src={process.env.PUBLIC_URL + '/Logo.png'} alt="Logo" className="logo" />
       <div className="text-container">
         <h1>Peak Stress</h1>
         <h2>ENGINEERING SERVICES</h2>

@@ -1,44 +1,70 @@
-/* Home.css */
+Home.css */
 
-/* .home-container {
+ .home-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
     background-color: #f0f0f0; 
-  } */
+  }
   
   .logo {
-    max-width: 150px;
-    height: auto; 
+    display: grid;
+    max-width: 80%;
+    max-height: 80%; 
+    margin: 5% 5% 5% 5%;
   }
   
-  .text-container {
-    max-width: 800px;
-  }
   
   h1, h2 {
+    display: flex;
+    justify-items: center;
     color: #333;
+    margin: 20px;
   }
   
   p {
-    line-height: 1.6;
+    p {
+      display: grid;
+      justify-content: center; /* Zamiast space-between */
+      font-size: 25px;
+      line-height: 1.6;
+      margin: 0 auto; /* Odnosi się do marginesów - automatyczny margines poziomy, aby wycentrować */
+      max-width: 800px; /* Dostosuj maksymalną szerokość tekstu do swoich preferencji */
+    }
+    ;
   }
   
-  /* Styl dla nawigacji (przykładowy styl) */
-  .nav {
+  nav {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1% 0 0 0 ;
+    background-color: #1E4E79;
+  }
+  
+  ul {
     list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
   }
   
-  .nav li {
-    margin-right: 10px;
+  li {
+    margin: 0 10px;
   }
   
-  .nav a {
+  nav a {
     text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    font-size: 14px;
+    color: white;
+    font-size: 25px;
+    transition: background-color 0.3s; 
+    padding: auto;
   }
+  nav a:hover {
+    background-color:#940020 ;
+    border-radius: 10%; 
+  }
+  
+
   
