@@ -1,0 +1,46 @@
+/* kontakt.css */
+
+body {
+    font-family: 'Arial', sans-serif; /* Lub inny wybrany font */
+    background-color: #f4f4f4; /* Kolor tła strony */
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .contact-info {
+    background-color: #fff; /* Tło sekcji z danymi kontaktowymi */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Cień */
+  }
+  
+  .contact-info h2 {
+    color: #333; /* Kolor tekstu nagłówka */
+  }
+  
+  .contact-info p {
+    color: #555; /* Kolor tekstu */
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .contact-info .billing-info {
+    margin-top: 20px;
+    border-top: 1px solid #ddd; /* Linia oddzielająca dane do faktur od reszty */
+    padding-top: 20px;
+  }
+  
+  .contact-info .billing-info h3 {
+    color: #333;
+  }
+  
+  .contact-info .billing-info p {
+    color: #555;
+  }
+  
+  /* Możesz dostosować kolory i inne właściwości stylów według swoich preferencji */
+  

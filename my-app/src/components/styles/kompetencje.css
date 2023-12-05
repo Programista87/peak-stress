@@ -1,0 +1,40 @@
+/* kompetencje.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4; /* Kolor tła sekcji */
+  }
+  
+  .competences-section {
+    background-color: #fff; /* Kolor tła sekcji z kompetencjami */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Cień */
+  }
+  
+  .competences-section h2 {
+    color: #333; /* Kolor tekstu nagłówka */
+  }
+  
+  .competences-section p {
+    color: #555; /* Kolor tekstu */
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .main-competences {
+    margin-top: 20px;
+  }
+  
+  .main-competences h3 {
+    color: #333;
+  }
+  
+  .main-competences p {
+    color: #555;
+  }
+  
+  /* Możesz dostosować kolory i inne właściwości stylów według swoich preferencji */
+  
